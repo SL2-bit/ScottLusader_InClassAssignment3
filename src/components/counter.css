@@ -1,0 +1,26 @@
+h1 {
+  font-size: 50px;
+}
+
+.body {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.foot {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  margin-top: 20px;
+  width: 20vw;
+  font-size: 75px;
+  color: gold;
+}
